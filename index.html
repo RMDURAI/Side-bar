@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIDEBAR</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="menu-btn">
+        <ion-icon name="menu"></ion-icon>
+    </div>
+<div class="sidebar">
+<header>
+    <div class="close-btn">
+        <ion-icon name="close"></ion-icon>
+    </div>
+    <div class="img">
+        <img src="pexels-photo-771742.jpeg" alt="">
+
+    </div>
+    <h2>Skill Safari</h2>
+</header>
+<div class="menu">
+    <div class="item">
+        <a href="#">
+            <ion-icon name="desktop-outline"></ion-icon>
+            Dashboard
+        </a>
+    </div>
+    <div class="item" >
+        <a href="#" class="sub-btn" data-container="toggle-1">
+            <ion-icon name="card-outline"></ion-icon>
+             Products
+             <ion-icon name="chevron-forward-outline" class="dropdown"></ion-icon>
+        </a>
+        <div class="sub-menu" id="toggle-1">
+            <a href="#" class="sub-item">Sub Item-01</a>
+            <a href="#" class="sub-item">Sub Item-02</a>
+            <a href="#" class="sub-item">Sub Item-03</a>
+
+        </div>
+    </div>
+    <div class="item">
+        <a href="#">
+            <ion-icon name="aperture-outline"></ion-icon>
+             Settings
+        </a>
+    </div>
+    <div class="item">
+        <a href="#" class="sub-btn" data-container="toggle-2">
+            <ion-icon name="person-outline"></ion-icon>
+             User Details
+             <ion-icon name="chevron-forward-outline" class="dropdown"></ion-icon>
+
+        </a>
+        <div class="sub-menu" id="toggle-2">
+            <a href="#" class="sub-item">Sub Item-01</a>
+            <a href="#" class="sub-item">Sub Item-02</a>
+            <a href="#" class="sub-item">Sub Item-03</a>
+
+        </div>
+        
+    </div>
+    <div class="item">
+        <a href="#">
+            <ion-icon name="people-outline"></ion-icon>
+             About US
+        </a>
+    </div>
+</div>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
